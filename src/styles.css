@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --bs-red: hsl(4, 100%, 67%);
+    --bs-redbg: hsl(4, 100%, 95%);
+    --bs-redShadow: hsl(4, 100%, 80%);
+    --bs-redGradient: #ff5476;
+    --bs-redGradient2: #ff673e;
+    --bs-blue800: hsl(234, 29%, 20%);
+    --bs-blue700: hsl(235, 18%, 26%);
+    --bs-grey: hsl(0, 0%,58%);
+    --bs-white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-blue800 {
+    color: var(--bs-blue800)
+}
+.text-red {
+    color: var(--bs-red)
+}
+
+.bg-blue700 {
+    background-color: var(--bs-blue700)
+}
+.bg-blue800 {
+    background-color: var(--bs-blue800)
+}
+
+.fs-7 {
+    font-size: 14px;
+}
+
+.rounded-4 {
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    border-color: black;
+    box-shadow: 0 0 0 0.05rem black;
+}
+.isInvalid {
+    border-color: var(--bs-red);
+    box-shadow: 0 0 0 0.05rem var(--bs-red);
+    background-color: var(--bs-redbg);
+    color: var(--bs-red)
+}
+
+#subscribe:hover, #dismiss:hover {
+    background: linear-gradient(to right, var(--bs-redGradient), var(--bs-redGradient2));
+    box-shadow: 0 .5rem 1rem var(--bs-redShadow);
+}
+#subscribe:focus, #dismiss:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+@media (min-width: 768px) {
+    .min-h-auto {
+        min-height: auto !important;
+    }
+    .rounded-5 {
+        border-radius: 36px;
+    }
+    .display-md-1 {
+        font-size: 55px;
+    }
+    .mh-90 {
+        max-height: 90vh;
+    }
+}
