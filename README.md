@@ -20,8 +20,8 @@ Newsletter Sign-Up with Success Message
 
 ### Links
 
-- Solution URL: [Solution URL]()
-- Live Site URL: [Github Pages]()
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-newsletter-sign-up-with-success-message-uGhLJKr3vY)
+- Live Site URL: [Github Pages](https://ellamonacillo.github.io/newsletter-sign-up-with-success-message.github.io/)
 
 ## My Process
 
