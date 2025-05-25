@@ -16,7 +16,7 @@ Newsletter Sign-Up with Success Message
 
 ### Screenshot
 
-![](images/screenshot.png)
+![](assets/images/screenshot.png)
 
 ### Links
 
