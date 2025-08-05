@@ -3,6 +3,7 @@ const main = document.getElementById('main')
 const submission = document.getElementById('submission')
 const email_input = document.querySelector('#email')
 const email_error = document.querySelector('#email_error')
+const subscriber_email = document.querySelector('#subscriber_email')
 
 
 function handleSubmit(e) {
@@ -24,7 +25,11 @@ function handleSubmit(e) {
         email_input.classList.add('isInvalid')
     }
     else {
-        email_error.textContent = '';
+        email_error.textContent = ''
+        email_input.classList.remove('isInvalid')
+
+        subscriber_email.textContent = data.email
+        
         main.classList.toggle('d-none')
         submission.classList.toggle('d-none')
     }
